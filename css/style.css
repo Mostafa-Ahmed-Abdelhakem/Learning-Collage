@@ -1,0 +1,158 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f7fff7;
+}
+.logo {
+  font-size: 80px;
+  color: #f7fff7;
+}
+.aboutLogo {
+  font-size: 50px;
+  color: #343434;
+}
+/* index */
+.icons {
+  padding-left: 15px;
+  color: #f7fff7;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+header {
+  background-color: #003554;
+  color: #f7fff7;
+  text-align: center;
+  margin-top: 0px;
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h1 {
+  font-size: 55px;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: #44c1ff;
+  width: 100%;
+  padding: 4px 2px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  top: 0px;
+  position: sticky;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #343434;
+  padding: 20px;
+}
+li a:hover {
+  background-color: #f7fff7;
+  color: #2f3061;
+  border-radius: 10px;
+}
+.welcomePart {
+  margin-bottom: 10px;
+}
+.welcomePart h3 {
+  text-align: center;
+  display: inline-block;
+  max-width: 50%;
+  font-family: "Lucida Sans";
+}
+#headImage {
+  height: 430px;
+  width: auto;
+  margin-top: -20px;
+  margin-right: 40px;
+}
+.coursesGroup {
+  margin: 10px 10px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  width: 98%;
+  height: 100%;
+  overflow-x: auto;
+}
+.course {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 10px;
+}
+.coursesGroup p {
+  text-align: center;
+  font-family: "Lucida Sans";
+  margin-top: 5px;
+}
+.coursesGroup img {
+  border-radius: 15px;
+  margin: 0 5px;
+}
+.coursesGroup img:hover {
+  border: 4px #343434 double;
+  box-sizing: border-box;
+}
+.coursesGroup p:hover {
+  /* text-decoration: underline; */
+  font-size: 18px;
+  font-weight: bold;
+}
+/* search */
+#paddSpinner {
+  padding-top: 150px;
+}
+/* about */
+.aboutIcons {
+  color: #f7fff7;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+/* contact */
+.formAll {
+  width: 80%;
+  padding: auto;
+  border-radius: 5px;
+  border-color: #343434;
+}
+.formButton {
+  background-color: #f7fff7;
+  color: #2f3061;
+  border: 1px #f7fff7 solid;
+  border-radius: 7px;
+}
+/* footer */
+footer {
+  background-color: #062534;
+  color: #f7fff7;
+  text-align: center;
+  font-style: italic;
+  line-height: 1px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  padding: 30px 0px;
+}
+footer h5 {
+  font-size: 17px;
+}
+
+/* COLOR PALETTE
+  https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+  #F7FFF7 - almost white
+  #343434 - dark gray - almost black
+  #2F3061 - dark blue
+  #FFe66D - yellow
+  #A1C6D7 - blue light */
